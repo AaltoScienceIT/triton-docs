@@ -168,10 +168,10 @@ Running an OpenMP code::
   srun --cpus-per-task=4 --mem=500 --time=00:05:00 hello_omp
 
 The
-:download:`slurm script<https://raw.githubusercontent.com/AaltoSciComp/hpc-examples/master/openmp/hello_omp/hello_omp.slrm>`
+:download:`slurm script<https://raw.githubusercontent.com/AaltoSciComp/hpc-examples/master/openmp/hello_omp/hello_omp.sh>`
 will look similar:
 
-.. literalinclude:: /triton/examples/openmp/hello_omp/hello_omp.slrm
+.. literalinclude:: /triton/examples/openmp/hello_omp/hello_omp.sh
    :language: slurm
 
 It is good to know that OpenMP is both an environment and set of libraries, but
@@ -321,7 +321,7 @@ Exercises
 The following use ``hpc-examples`` from :ref:`the previous exercises <triton-tut-exercise-repo>`:
 
 2. Find the files ``hpc-examples/openmp/hello_omp/hello_omp.c`` and
-   ``hpc-examples/hello_omp/hello_omp.slrm`` that have a short example of OpenMP.
+   ``hpc-examples/hello_omp/hello_omp.sh`` that have a short example of OpenMP.
    Compile and run it - a slurm script is included.
 
 3. Find the files in ``hpc-examples/python/python_openmp``. Try running the
@@ -330,7 +330,7 @@ The following use ``hpc-examples`` from :ref:`the previous exercises <triton-tut
    best efficiency? Use ``seff`` to verify.
 
 4. Find the files ``hpc-examples/mpi/hello_mpi/hello_mpi.c`` and
-   ``hpc-examples/mpi/hello_mpi/hello_mpi.slrm`` that
+   ``hpc-examples/mpi/hello_mpi/hello_mpi.sh`` that
    have a short example of MPI.
    Compile and run it - a slurm script is included.
 
